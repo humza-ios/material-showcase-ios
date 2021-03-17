@@ -158,7 +158,7 @@ extension MaterialShowcase {
       targetTintColor = tabBar.tintColor
       backgroundPromptColor = tabBar.tintColor
       if tapThrough {
-        onTapThrough = { tabController.selectedIndex = itemIndex }
+        onTapThrough = { tabController.selectedIndex = 1 }
       }
     } else {
       print ("The tab bar item index is out of range")
